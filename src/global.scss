@@ -24,3 +24,17 @@
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
+
+
+.ion-color-primary{
+    --ion-color-base:#E6CCB2!important;
+}
+
+.ion-color-secondary{
+    --ion-color-base:#B08968!important;
+}
+
+@font-face {   
+    font-family: 'Rye';  //This is what we are going to call  
+    src: url('./assets/fonts/Rye-Regular.ttf');
+  }

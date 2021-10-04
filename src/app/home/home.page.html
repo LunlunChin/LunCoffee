@@ -1,20 +1,67 @@
+
+<ion-app>
 <ion-header [translucent]="true">
-  <ion-toolbar>
+  <ion-toolbar color="secondary">
     <ion-title>
-      Blank
+      Lun Coffee
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <img src="../../assets/bean.png">
+      </ion-col>
+      <ion-col>
+        <h4>Do You Like Coffee?</h4>
+        <ion-row>
+          <ion-col class="button" size='6'>
+            <ion-button color="primary">Yes!</ion-button>
+          </ion-col>
+          <ion-col class="button" size='6'>
+            <ion-button color="primary">Noo!</ion-button>
+          </ion-col>
+        </ion-row>
+      </ion-col>
+
+    </ion-row>
+  </ion-grid>
+  
+  <ion-grid>
+    <ion-row>
+      <ion-col size='12'>
+        <div class="img1">
+          <ion-button class="btn1" color="primary">Details</ion-button>
+          <img src="../../assets/Group 29.png">
+          
+        </div>
+      </ion-col>
+  
+    </ion-row>
+
+    <ion-row>
+      <ion-col size='12'>
+        <div class="img1">
+          <ion-button class="btn2" color="primary">Details</ion-button>
+
+          <img src="../../assets/Group 30.png">
+          
+        </div>
+      </ion-col>
+  
+    </ion-row>
+  </ion-grid>
+  <ion-button color="primary">Noo!</ion-button>
+  
 </ion-content>
+
+<ion-footer>
+  <!-- <ion-toolbar>
+    <ion-title>Footer</ion-title>
+  </ion-toolbar>
+</ion-footer> -->
+
+</ion-app>

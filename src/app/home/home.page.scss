@@ -25,3 +25,65 @@
 #container a {
   text-decoration: none;
 }
+
+ion-content{
+  --background: rgb(255, 255, 255) url('../../assets/background.png') no-repeat center center / cover;
+  opacity: 100%;
+  
+}
+
+ion-row{
+  margin-top:15px;
+}
+
+div.img1{
+  
+  // max-width:65%;
+}
+ion-col{
+  padding:0;
+}
+
+h4{
+  margin-top:50px;
+}
+
+p{
+  height:125px;
+  margin-top:0;
+  padding-left:0;
+}
+div{
+  background-color: #EDE0D4;
+  opacity: 100%;
+}
+
+ion-button{
+  height:28px;
+  width:90px;
+}
+ion-row.button{
+  margin:0;
+}
+
+ion-button.btn1{
+  position:absolute;
+  margin-left:220px;
+  margin-top:75px;
+  width:140px;
+  border-radius: 25px;
+  font-family:Rye;
+  --ion-color-contrast:black!important;
+
+
+}
+ion-button.btn2{
+  position:absolute;
+  margin-left:30px;
+  margin-top:75px;
+  width:140px;
+  border-radius: 25px;
+  font-family:Rye;
+  --ion-color-contrast:black!important;
+}
+

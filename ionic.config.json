@@ -1,5 +1,7 @@
 {
   "name": "lun_coffee",
-  "integrations": {},
+  "integrations": {
+    "capacitor": {}
+  },
   "type": "angular"
 }
